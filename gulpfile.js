@@ -25,7 +25,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('webserver', function() {
-    gulp.src('../landing-chinchilla/')
+    gulp.src('../landing-andreaultimate/')
         .pipe(webserver({
             fallback: 'index.html',
             livereload: true,
